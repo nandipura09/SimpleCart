@@ -42,6 +42,13 @@ INSERT INTO public.product (sku,brand,"name",description,price,non_discountable)
 	 ('INDOIGS','Indofood','Indomie goreng special','Indomie goreng special',3000.0,false),
 	 ('MYRLM1','mayora','le minerale 1000ml','le minerale 1000ml',8000.0,true);
 ```
+## Debt
+
+ - Cart Update
+ - Same product validation on cart
+ - Unit test
+ - Unit test coverage
+ - CI setup 
 
 ## Run the app
 to run the web app simply  use
@@ -51,10 +58,3 @@ to run the web app simply  use
 to access swagger use url `localhost:5000/apidocs`
 
 
-## Debt
-
- - Cart Update
- - Same product validation on cart
- - Unit test
- - Unit test coverage
- - CI setup 
